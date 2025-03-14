@@ -32,3 +32,61 @@
 
 ### **Armazenamento de dados**
 - Integração simplificada com o Banco de Dados `PostgreSQL` através do `Prisma ORM` e `Supabase`.
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **Next.js 14**: Framework React para desenvolvimento de aplicações web do lado do cliente e do servidor.
+- **NextAuth.js**: Biblioteca para autenticação em aplicações Next.js, suportando vários provedores de autenticação.
+- **TypeScript**: Linguagem de programação que adiciona tipagem estática ao JavaScript.
+- **TS-node**: Execução de arquivos TypeScript diretamente no Node.js sem necessidade de compilação.
+- **Zod**: Biblioteca para validação de esquemas em aplicações TypeScript.
+- **React.js**: Biblioteca JavaScript para construção de interfaces de usuário (UI) interativas.
+- **React Hook Form**: Biblioteca para gerenciamento de formulários em aplicações React.
+- **React Icons**: Biblioteca de ícones para uso em aplicações React.
+- **JSX**: Extensão de sintaxe que permite escrever código JavaScript com marcação HTML, amplamente utilizada no desenvolvimento de componentes e interfaces de usuário em aplicações React.
+- **TailwindCSS**: Framework CSS para construção de interfaces de usuário com base em classes utilitárias.
+- **Shadcn/ui**: Componentes de interface para aplicações React, baseados no TailwindCSS.
+- **Prisma ORM**: ORM (Mapeamento Objeto-Relacional) para banco de dados, utilizado para modelagem e interação com o banco de dados.
+- **Supabase**: Plataforma de banco de dados e autenticação para aplicações web e mobile.
+- **PostgreSQL**: Banco de dados relacional open source utilizado no projeto.
+- **Date-fns**: Biblioteca JavaScript para manipulação de datas de forma fácil e eficiente.
+- **Lucide-react**: Biblioteca de ícones SVG para uso em aplicações React.
+- **Vercel**: Plataforma de hospedagem para implantação de aplicações web.
+- **VSCode**: Editor de código fonte utilizado para desenvolvimento do projeto.
+- **Git**: Sistema de controle de versão utilizado para gerenciar o código fonte do projeto.
+
+---
+
+## 💻 Como Rodar o Projeto
+
+1. **Instale as dependências:**
+
+   ```bash
+   npm install
+   ```
+
+2. **Configure o Supabase:**
+   - Adicione suas credenciais do Supabase no projeto.
+
+3. **Inicie o servidor de desenvolvimento:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Abra o navegador e acesse:**
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 📚 Estrutura de Diretórios
+
+```
+/app       - Código-fonte da aplicação.
+/public    - Arquivos públicos.
+```

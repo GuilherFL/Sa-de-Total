@@ -90,3 +90,4 @@
 /app       - Código-fonte da aplicação.
 /public    - Arquivos públicos.
 ```
+https://cdn.discordapp.com/attachments/1349523436057268225/1349911112572993706/foto1__2025-03-13_at_20.38.15.jpeg?ex=67d4d231&is=67d380b1&hm=2b9bbfa064e21fd7f3c2b7dbfed4b42fa0be841f3609a0ed8bcb61b6e7f3bac9&

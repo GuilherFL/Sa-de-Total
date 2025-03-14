@@ -4,7 +4,7 @@ Next.js (v14.0.0 ou superior)
 Node.js (v14.0.0 ou superior)
 
 npm (v6.0.0 ou superior)
-
+ <h2 >🚀 Funcionalidades</h2>
 🚀 Funcionalidades
 Interface de Usuário, Navegação e Design
 Através da combinação de Next.js + Tailwind + ShadCN/UI, foi criada uma interface moderna, atraente, intuitiva e totalmente responsiva.

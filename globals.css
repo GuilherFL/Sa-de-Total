@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Definindo as cores para o tema claro */
+  :root {
+    --background: 195 60% 95%; /* Azul muito claro, com um toque esverdeado, trazendo frescor e tranquilidade */
+    --foreground: 210 40% 20%; /* Azul escuro para boa legibilidade */
+    --card: 195 70% 90%; /* Azul suave e claro para os cartões, ideal para um tema de saúde */
+    --card-foreground: 210 40% 20%; /* Texto escuro nos cartões */
+    --popover: 195 70% 90%; /* Azul suave para o popover */
+    --popover-foreground: 210 40% 20%; /* Texto escuro no popover */
+    --primary: 200 80% 60%; /* Azul vibrante, mas não muito forte, para os botões e links */
+    --primary-foreground: 210 40% 98%; /* Texto claro nos botões para contraste */
+    --secondary: 200 60% 70%; /* Azul calmo e suave para elementos secundários */
+    --secondary-foreground: 210 40% 98%; /* Texto claro para elementos secundários */
+    --muted: 200 20% 85%; /* Azul suave para elementos atenuados */
+    --muted-foreground: 210 10% 40%; /* Texto mais escuro para elementos atenuados */
+    --accent: 200 70% 40%; /* Azul brilhante para destacar elementos */
+    --accent-foreground: 210 40% 98%; /* Texto claro para elementos de destaque */
+    --destructive: 0 60% 50%; /* Vermelho para elementos destrutivos (erros) */
+    --destructive-foreground: 210 40% 98%; /* Texto claro para erros */
+    --border: 200 40% 70%; /* Azul suave para bordas */
+    --input: 210 20% 90%; /* Azul suave para o fundo dos campos de entrada */
+    --ring: 200 80% 50%; /* Azul vibrante para o anel de foco */
+    --radius: 0.5rem; /* Bordas arredondadas */
+  }
+
+  /* Estilos para o tema escuro */
+  .dark {
+    --background: 195 20% 20%; /* Fundo escuro com um toque de azul frio */
+    --foreground: 210 40% 90%; /* Texto claro para boa legibilidade */
+    --card: 195 20% 30%; /* Azul suave e escuro para o cartão */
+    --card-foreground: 210 40% 90%; /* Texto claro no cartão */
+    --popover: 195 20% 30%; /* Popover com fundo azul mais escuro */
+    --popover-foreground: 210 40% 90%; /* Texto claro no popover */
+    --primary: 200 80% 50%; /* Azul vibrante, mais escuro para botões */
+    --primary-foreground: 210 40% 90%; /* Texto claro para botões */
+    --secondary: 200 60% 60%; /* Azul calmo para elementos secundários */
+    --secondary-foreground: 210 40% 90%; /* Texto claro para elementos secundários */
+    --muted: 200 20% 70%; /* Azul suave escuro para elementos atenuados */
+    --muted-foreground: 210 40% 90%; /* Texto claro para elementos atenuados */
+    --accent: 200 70% 30%; /* Azul forte para destacar no modo escuro */
+    --accent-foreground: 210 40% 90%; /* Texto claro para destaque */
+    --destructive: 0 60% 50%; /* Vermelho para erros */
+    --destructive-foreground: 210 40% 90%; /* Texto claro para erro */
+    --border: 200 40% 60%; /* Bordas mais escuras no modo escuro */
+    --input: 210 20% 30%; /* Fundos de input escuros */
+    --ring: 200 80% 40%; /* Anel de foco em azul vibrante escuro */
+  }
+
+  /* Estilos globais */
+  * {
+    @apply border-[hsl(var(--border))]; /* Aplica a cor da borda para todos os elementos */
+  }
+
+  body {
+    @apply flex h-screen flex-col bg-[hsl(var(--background))] text-[hsl(var(--foreground))] antialiased; /* Estilos para o corpo */
+  }
+
+  .brand {
+    font-family: "Orbitron", sans-serif; /* Fonte futurista para a marca */
+  }
+
+  .card {
+    @apply bg-[hsl(var(--card))] text-[hsl(var(--card-foreground))]; /* Estilo dos cartões */
+  }
+
+  .button {
+    @apply bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] hover:bg-[hsl(var(--primary))]; /* Estilo dos botões */
+  }
+
+  .input {
+    @apply bg-[hsl(var(--input))] text-[hsl(var(--foreground))]; /* Estilo dos campos de entrada */
+  }
+
+  .destructive {
+    @apply bg-[hsl(var(--destructive))] text-[hsl(var(--destructive-foreground))]; /* Estilo para erros */
+  }
+
+  /* Ajustes para legibilidade */
+  .muted {
+    color: hsl(var(--muted-foreground)); /* Texto mais escuro para elementos atenuados */
+  }
+}

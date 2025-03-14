@@ -13,16 +13,16 @@
 - Foi implementada uma funcionalidade de busca utilizando o `react-hook-form` para gerenciar o formulário e o `zod` para validação dos dados inseridos.
 
 ### **Carrosséis Interativos**
-- Possui carrosséis que exibem as barbearias, agendamentos, seções de destaques e de barbeiros.
+- Possui carrosséis que exibem os horarios das consultas, dias disponiveis para agendamentos, seções de especialidades medicas.
 
 ### **Seleção de Data e Hora com sincronização de horário e localização**
-- Os usuários podem selecionar a data e o horário desejados para agendar um serviço, com opções dinâmicas e atualizadas em tempo real.
+- Os usuários podem selecionar a data e o horário desejados para agendar a consulta, com opções dinâmicas e atualizadas em tempo real.
 
 ### **Visualização de Disponibilidade**
 - Exibe a disponibilidade de horários de forma clara e organizada, ajudando os usuários a encontrar o melhor momento para o agendamento.
 
 ### **Confirmação Instantânea**
-- Após a confirmação do agendamento, os usuários recebem uma confirmação imediata e podem visualizar os detalhes do serviço agendado.
+- Após a confirmação do agendamento, os usuários recebem uma confirmação imediata e podem visualizar os detalhes do exame agendado.
 
 ### **Cancelamento Simples**
 - Caso seja necessário, os usuários podem cancelar o agendamento de forma simples e rápida, mantendo a sincronização de horários atualizada.
